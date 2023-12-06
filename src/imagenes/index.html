@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SERVICAMPO S.A.</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+
+        header {
+            background-color: green;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+
+        nav {
+            float: left;
+            width: 20%;
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        nav a {
+            display: block;
+            color: white;
+            text-decoration: none;
+            padding: 10px;
+            margin-bottom: 5px;
+            border-radius: 5px;
+            background-color: #555;
+        }
+
+        nav a:hover {
+            background-color: #777;
+        }
+
+        section {
+            float: left;
+            width: 60%;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        aside {
+            float: left;
+            width: 20%;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        footer {
+            clear: both;
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        footer-left {
+            text-align: left;
+        }
+
+        footer-right {
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>SERVICAMPO SA.</h1>
+    </header>
+
+    <nav>
+        <a href="Quienessomos.html"><img src="casa.png" alt="Quienes Somos"> ¿Quiénes Somos?</a>
+        <a href="medicamentos.html"><img src="botiquin.png" alt="Medicamentos"> Medicamentos</a>
+        <a href="productos.html"><img src="productos.png" alt="Productos"> Productos</a>
+        <a href="accesorios.html"><img src="mascotas.png" alt="Accesorios"> Accesorios</a>
+        <a href="asesorias.html"><img src="pesos.png" alt="Ventas"> Ventas</a>
+    </nav>
+
+    <section>
+        <!-- Contenido principal aquí -->
+        <h2 id="quienes-somos">Especialistas en Avicultura</h2>
+        <p>Distribuidor de drogas veterinarias.</p>
+        
+        <!-- Agrega tu imagen aquí -->
+        <img src="inicio.jpg" alt="Nuestra Empresa">
+    </section>
+    
+
+    <aside>
+        <!-- Barra lateral con buscador y redes sociales -->
+        <form action="#" method="get">
+            <label for="search">Buscar:</label>
+            <input type="text" id="search" name="search">
+            <input type="submit" value="Buscar">
+        </form>
+
+       
+    </aside>
+
+    <footer>
+        <!-- Información de contacto a la izquierda -->
+        <div class="footer-left">
+            <h3>Contacto</h3>
+            <p>Dirección: [Tu dirección]</p>
+            <p>Email: [Tu email]</p>
+            <p>Teléfono: [Tu teléfono]</p>
+        </div>
+        
+        <!-- Iconos de redes sociales a la derecha -->
+        <div class="footer-right">
+            <h3>Encuéntranos en:</h3>
+            <img src="facebook.png" alt="Facebook">
+            <img src="whatsapp.png" alt="Twitter">
+            <img src="instagram.png" alt="Instagram">
+        </div>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accesorios - SERVICAMPO S.A.</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            color: #333;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+
+        .top-buttons {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 20px;
+        }
+
+        .top-buttons button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 12px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .calendar {
+            margin: 20px;
+            text-align: center;
+        }
+
+        .accessory-list {
+            list-style-type: none;
+            padding: 0;
+            margin: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+
+        .accessory-list li {
+            margin-bottom: 10px;
+        }
+
+        .accessory-list details {
+            margin: 5px;
+            padding: 5px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .accessory-list details summary {
+            outline: none;
+        }
+
+        .map-container {
+            width: 300px;
+            height: 300px;
+            margin: 20px;
+        }
+
+        section {
+            padding: 20px;
+            clear: both;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #ddd;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Accesorios - SERVICAMPO S.A.</h1>
+    </header>
+
+    <div class="top-buttons">
+        <button>Inicio</button>
+        <button>Contacto</button>
+        <div class="calendar">
+            <input type="text" id="datepicker" placeholder="Seleccione una fecha">
+        </div>
+    </div>
+
+    <ul class="accessory-list">
+        <li>
+            <details>
+                <summary>Camas - Iglús</summary>
+                <p>Información sobre camas e iglús para mascotas.</p>
+            </details>
+        </li>
+        <li>
+            <details>
+                <summary>Collares y Pecheras</summary>
+                <p>Información sobre collares y pecheras para mascotas.</p>
+            </details>
+        </li>
+        <li>
+            <details>
+                <summary>Comederos Bebederos</summary>
+                <p>Información sobre comederos y bebederos para mascotas.</p>
+            </details>
+        </li>
+        <li>
+            <details>
+                <summary>Gimnasios</summary>
+                <p>Información sobre gimnasios para mascotas.</p>
+            </details>
+        </li>
+        <li>
+            <details>
+                <summary>Guacales</summary>
+                <p>Información sobre guacales para mascotas.</p>
+            </details>
+        </li>
+        <li>
+            <details>
+                <summary>Juguetes</summary>
+                <p>Información sobre juguetes para mascotas.</p>
+            </details>
+        </li>
+        <li>
+            <details>
+                <summary>Ropa-Ost</summary>
+                <p>Información sobre ropa para mascotas.</p>
+            </details>
+        </li>
+        <li>
+            <details>
+                <summary>Bosales</summary>
+                <p>Información sobre bosales para mascotas.</p>
+            </details>
+        </li>
+    </ul>
+
+    <div class="map-container">
+        <!-- Agrega aquí tu código para integrar un mapa -->
+    </div>
+
+    <section>
+        <!-- Contenido principal aquí -->
+        <h2>Explora nuestra variedad de accesorios para mascotas</h2>
+        <p>Selecciona una categoría para obtener más información.</p>
+    </section>
+
+    <footer>
+        SERVICAMPO S.A. &copy; 2023
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script>
+        $(function() {
+            $("#datepicker").datepicker();
+        });
+    </script>
+
+    <!-- Puedes agregar aquí el código necesario para integrar un mapa -->
+    <!-- Por ejemplo, puedes utilizar Google Maps API -->
+    <!-- Asegúrate de obtener una clave API válida y agregarla en el script correspondiente -->
+
+</body>
+</html>

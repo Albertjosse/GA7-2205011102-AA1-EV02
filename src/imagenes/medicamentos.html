@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nuestros Medicamentos - SERVICAMPO S.A.</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            color: #333;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+
+        .search-bar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+            background-color: #ddd;
+        }
+
+        .search-input {
+            width: 150px;
+            padding: 8px;
+            border-radius: 15px;
+            border: none;
+        }
+
+        .title {
+            text-align: center;
+            font-size: 24px;
+            color: #4CAF50;
+        }
+
+        .horizontal-buttons {
+            display: flex;
+            justify-content: flex-start;
+            margin-top: 20px;
+        }
+
+        .horizontal-buttons button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 12px; /* Ajusta el tamaño del botón aquí */
+            margin-right: 10px; /* Espaciado entre botones */
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .horizontal-buttons button:last-child {
+            margin-right: 0; /* Elimina el margen derecho para el último botón */
+        }
+
+        .vertical-list {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .vertical-list a {
+            display: block;
+            padding: 10px;
+            margin-bottom: 5px;
+            background-color: #4CAF50;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #ddd;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .footer-buttons {
+            display: flex;
+            align-items: center;
+        }
+
+        .footer-buttons button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 8px;
+            margin-right: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>SERVICAMPO S.A.</h1>
+    </header>
+
+    <div class="search-bar">
+        <h2>Nuestros Medicamentos</h2>
+        <input type="text" class="search-input" placeholder="Buscar...">
+    </div>
+
+    <section>
+        <div class="title">Explora nuestras categorías:</div>
+
+        <div class="horizontal-buttons">
+            <button>Inicio</button>
+        </div>
+
+        <div class="vertical-list">
+            <a href="#">Antibióticos</a>
+            <a href="#">Antiparasitarios</a>
+            <a href="#">Vitaminicos</a>
+            <a href="#">Analgesicos</a>
+            <a href="#">Promotores de Crecimiento</a>
+            <a href="#">Antimicrobianos</a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-buttons">
+            <button>&lt; Regresar</button>
+            <button>Continuar &gt;</button>
+        </div>
+        SERVICAMPO S.A. &copy; 2023
+    </footer>
+
+</body>
+</html>

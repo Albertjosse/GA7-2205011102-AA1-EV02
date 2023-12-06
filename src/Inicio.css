@@ -1,0 +1,73 @@
+/* Inicio.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+  }
+  
+  header {
+    background-color: green;
+    color: white;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  nav {
+    float: left;
+    width: 20%;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  nav a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    background-color: #555;
+  }
+  
+  nav a:hover {
+    background-color: #777;
+  }
+  
+  section {
+    float: left;
+    width: 60%;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  aside {
+    float: left;
+    width: 20%;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  footer {
+    clear: both;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .footer-left {
+    text-align: left;
+  }
+  
+  .footer-right {
+    text-align: right;
+  }
+  
+  /* Agrega aquí cualquier estilo adicional que necesites */
+  

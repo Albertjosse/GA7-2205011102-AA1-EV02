@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiénes Somos - SERVICAMPO S.A.</title>
+    
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            color: #333;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+
+        .nav-buttons {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px;
+            background-color: #ddd;
+        }
+
+        .search-bar {
+            width: 70%;
+            padding: 10px;
+        }
+
+        section {
+            text-align: center;
+            padding: 20px;
+        }
+
+        .big-title {
+            color: #4CAF50;
+            font-size: 24px;
+        }
+
+        .dropdowns {
+            margin-top: 20px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #ddd;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>SERVICAMPO S.A.</h1>
+    </header>
+
+    <div class="nav-buttons">
+        <button>&lt; Anterior</button>
+        <div class="search-bar">
+            <input type="text" placeholder="Buscar...">
+        </div>
+        <button>Siguiente &gt;</button>
+    </div>
+
+    <section>
+        <h2 class="big-title">Quiénes Somos - SERVICAMPO S.A.</h2>
+        <p>Tu tienda veterinaria de confianza</p>
+        
+        <div class="dropdowns">
+            <label for="historia">Reseña Histórica:</label>
+            <select id="historia">
+                <option value="historia1">Historia 1</option>
+                <option value="historia2">Historia 2</option>
+                <!-- Agrega más opciones si es necesario -->
+            </select>
+
+            <label for="mision">Misión:</label>
+            <select id="mision">
+                <option value="mision1">Misión 1</option>
+                <option value="mision2">Misión 2</option>
+                <!-- Agrega más opciones si es necesario -->
+            </select>
+
+            <label for="vision">Visión:</label>
+            <select id="vision">
+                <option value="vision1">Visión 1</option>
+                <option value="vision2">Visión 2</option>
+                <!-- Agrega más opciones si es necesario -->
+            </select>
+
+            <label for="laboratorios">Laboratorios Autorizados:</label>
+            <select id="laboratorios">
+                <option value="lab1">Laboratorio 1</option>
+                <option value="lab2">Laboratorio 2</option>
+                <!-- Agrega más opciones si es necesario -->
+            </select>
+        </div>
+    </section>
+
+    <footer>
+        <button>&lt; Regresar</button>
+    </footer>
+
+</body>
+</html>

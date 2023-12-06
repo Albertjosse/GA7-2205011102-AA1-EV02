@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alimentos Concentrados Servicampo S.A. - Productos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            color: #333;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+
+        .top-buttons {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+
+        .top-buttons button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 12px;
+            margin-right: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .dropdown {
+            float: left;
+            overflow: hidden;
+        }
+
+        .dropdown .dropbtn {
+            background-color: #4CAF50;
+            color: white;
+            padding: 12px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            border-radius: 5px;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #ddd;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        .icon-list {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            margin: 20px;
+        }
+
+        .icon-list li {
+            margin-bottom: 10px;
+            text-align: center;
+        }
+
+        .icon-list img {
+            width: 50px; /* Ajusta el tamaño de los iconos según sea necesario */
+            height: auto;
+            border-radius: 5px;
+        }
+
+        .icon-list details {
+            margin-left: 5px; /* Ajusta el espaciado entre el icono y el nombre */
+        }
+
+        .icon-list summary {
+            cursor: pointer;
+            outline: none;
+            padding: 5px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+        }
+
+        .icon-list p {
+            margin: 5px 0 0;
+            font-size: 14px;
+            text-align: left;
+            margin-left: 5px; /* Ajusta el espaciado entre el texto y el icono */
+        }
+
+        section {
+            padding: 20px;
+            clear: both;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #ddd;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Alimentos Concentrados Servicampo S.A.</h1>
+    </header>
+
+    <div class="top-buttons">
+        <button>Inicio</button>
+        <button>Ventas</button>
+        <button>Contacto</button>
+    </div>
+
+    <div class="dropdown">
+        <button class="dropbtn">Productos</button>
+        <div class="dropdown-content">
+            <a href="#">Avicultura</a>
+            <a href="#">Porcicultura</a>
+            <a href="#">Ganadería</a>
+            <a href="#">Equinos</a>
+            <a href="#">Piscicultura</a>
+            <a href="#">Especial para mascotas pequeñas</a>
+        </div>
+    </div>
+
+    <ul class="icon-list">
+        <li>
+            <details>
+                <summary>Avicultura</summary>
+                <p>Información de prueba Lorem Ipsum para Avicultura.</p>
+            </details>
+            <img src="gallina.png" alt="Avicultura">
+        </li>
+        <li>
+            <details>
+                <summary>Porcicultura</summary>
+                <p>Información de prueba Lorem Ipsum para Porcicultura.</p>
+            </details>
+            <img src="cerdo.png" alt="Porcicultura">
+        </li>
+        <li>
+            <details>
+                <summary>Ganadería</summary>
+                <p>Información de prueba Lorem Ipsum para Ganadería.</p>
+            </details>
+            <img src="vaca.png" alt="Ganadería">
+        </li>
+        <li>
+            <details>
+                <summary>Equinos</summary>
+                <p>Información de prueba Lorem Ipsum para Equinos.</p>
+            </details>
+            <img src="caballo.png" alt="Equinos">
+        </li>
+        <li>
+            <details>
+                <summary>Piscicultura</summary>
+                <p>Información de prueba Lorem Ipsum para Piscicultura.</p>
+            </details>
+            <img src="pescado.png" alt="Piscicultura">
+        </li>
+        <li>
+            <details>
+                <summary>Especial para mascotas pequeñas</summary>
+                <p>Información de prueba Lorem Ipsum para Especial para mascotas pequeñas.</p>
+            </details>
+            <img src="huella.png" alt="Especial para mascotas pequeñas">
+        </li>
+    </ul>
+
+    <section>
+        <!-- Contenido principal aquí -->
+        <h2>Explora nuestros productos</h2>
+        <p>Información sobre los alimentos concentrados para diversas áreas.</p>
+    </section>
+
+    <footer>
+        SERVICAMPO S.A. &copy; 2023
+    </footer>
+
+</body>
+</html>
